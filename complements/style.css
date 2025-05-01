@@ -1,0 +1,50 @@
+ol { counter-reset: item }
+li { display: block }
+li:before {
+    content: counters(item,".") ". ";
+    counter-increment: item
+}
+ol {
+    color: #3f4066;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.content-bullet {
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-bullet .sub {
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+a {
+    position: relative;
+    color: #3f4066;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7576a2;
+}
+
+.return-to-contents {
+    color: #7783a9;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.return-to-contents:hover {
+    color: #b6bed8;
+}
+
+.caption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    max-width: 28%;
+    padding-bottom: 15px;
+}

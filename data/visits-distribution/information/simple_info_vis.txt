@@ -1,0 +1,4 @@
+ Cases                     3
+ Realizations         100000
+ MaxDistance             400
+ Time                    100
